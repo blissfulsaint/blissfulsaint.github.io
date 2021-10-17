@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(115, 115, 115);
+}
+ 
+.circles {
+    box-sizing: border-box;
+    width: 100%;
+}
+ 
+body section div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 50px;
+}
+ 
+#desk {
+    width: 70%;
+    border: solid 10px rgb(68, 68, 68);
+    border-radius: 100%;
+    margin:auto;
+}
+#graphic {
+    width: 70%;
+    border: solid 10px rgb(68, 68, 68);
+    border-radius: 100%;
+    margin:auto;
+}
+#guy {
+    width: 70%;
+    border: solid 10px rgb(68, 68, 68);
+    border-radius: 100%;
+    margin:auto;
+}
+
