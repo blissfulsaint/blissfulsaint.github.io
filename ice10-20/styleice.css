@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body {
+    background-color: black;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#glasses {
+    object-fit: contain;
+    max-width: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.background {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    border-radius: 10px;
+    grid-column: 2/4;
+    text-align: center;
+    padding: 10px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin: 10px;
+}
+
+.email {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+}
+.name {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: gray;
+}
+
+#label {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    max-width: 100px;
+    margin: 0 auto;
+}
