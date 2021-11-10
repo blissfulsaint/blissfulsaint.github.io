@@ -65,6 +65,7 @@ p {
 #read, #views, #comments {
     background-color: rgb(131, 131, 255);
     font-family: 'PT Serif', serif;
+    color: white;
 }
 
 #read {
