@@ -1,8 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Roboto:wght@300;400&family=Zen+Antique&display=swap');
 
 body {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
+    background-color: #818d96;
+}
+
+#content {
+    background-color: white;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    margin-top: 100px;
+    max-width: 100%;
+}
+
+.home-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 50px 0px 50px;
+    gap: 50px;
+}
+
+h1 {
+    font-family: 'Zen Antique';
+    font-size: 32px;
+    color: #20455f;
+    text-shadow: 2px 2px 1px lightgray;
+}
+
+h3 {
+    font-family: 'Zen Antique';
+    color: #20455f;
+    text-shadow: 2px 2px 1px lightgray;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #20455f;
+    text-shadow: 2px 2px 1px lightgray;
+}
+
+.emphasis {
+    text-shadow: 2px 2px 1px #cfc31e;
 }
 
 header{
@@ -31,8 +75,8 @@ nav {
 
 nav a {
     float:left;
-    font-size: 16px;
-    color: white;
+    font-size: 20px;
+    color: #20455f;
     text-align: center;
     padding: 35px;
     text-decoration: none;
@@ -44,10 +88,10 @@ nav a {
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: none;
-    color: white;
+    color: #20455f;
     padding: 35px;
     background-color: inherit;
     font-family: inherit;
@@ -55,13 +99,14 @@ nav a {
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #68c27b;
+    color: #cfc31e;
+    background-color: #20455f;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #68c27b;
+    background-color: #497594;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -69,7 +114,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .dropdown-content a{
     float: none;
-    color: black;
+    color: #ddd457;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -77,7 +122,8 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #ddd457;
+    color: #497594;
 }
 
 .dropdown:hover .dropdown-content {
@@ -86,4 +132,131 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 #market-img {
     width: 100%;
+}
+
+#market-msg {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #20455f;
+}
+
+.profile {
+    grid-column: 1/2;
+    padding-left: 30px;
+}
+
+#profile {
+    max-width: 100%;
+    border: 10px solid #cfc31e;
+    border-radius: 50%;
+}
+
+#profile:hover {
+    border: 10px solid #20455f;
+}
+
+#about {
+    grid-column: 2/3;
+    margin-right: 50px;
+}
+
+#about h1 {
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+#about h3 {
+    padding-top: 0px;
+    margin-top: 5px;
+}
+
+.strats {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+#testing, #optimize {
+    text-align: center;
+}
+
+#testing h1, #optimize h1 {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#testing-img, #optimize-img {
+    width: 60%;
+    border: 8px solid #cfc31e;
+    border-radius: 20px;
+}
+
+#testing-img:hover, #optimize-img:hover {
+    border: 8px solid #20455f
+}
+
+#calendly {
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+}
+
+#calendly h3 {
+    margin-bottom: 45px;
+}
+
+#calendly a {
+    text-decoration: none;
+    text-shadow: none;
+    color: #20455f;
+    background-color: #cfc31e;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#calendly a:hover {
+    color: #cfc31e;
+    background-color: #20455f;
+}
+
+footer {
+    background-color: #497594;
+    color: #FFFFFF;
+    padding: 25px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    text-shadow: none;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #cfc31e;
+}
+
+footer h3 {
+    color: white;
+    text-shadow: none;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding: 15px 0px 0px 15px;
+    max-width: 40px;
 }
