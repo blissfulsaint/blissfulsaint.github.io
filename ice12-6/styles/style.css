@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(91, 91, 211);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: lightgray;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.home-grid2 p:nth-of-type(3){
+    font-weight: bold;
+    color: gray;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.sign-up{
+    display: block;
+    margin-top: 50px;
+}
+
+#name, #email {
+    padding: 10px 100px 10px 14px;
+    border-radius: 5px;
+    border: solid 1px rgb(238, 238, 238);
+    margin-top: 5px;
+    background-color: rgb(238, 238, 238);
+}
+
+.submit {
+    padding: 10px 114px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid 1px rgb(60, 60, 190);
+    background-color: rgb(60, 60, 190);
+    color: white;
+}
+
+#london-img {
+    max-width: 100%;
+    margin-top: 70px;
+    z-index: 0;
+    opacity: 0.25;
+}

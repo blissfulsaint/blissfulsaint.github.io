@@ -39,7 +39,7 @@ h3 {
     text-shadow: 2px 2px 1px lightgray;
 }
 
-p {
+p, li {
     font-family: 'Roboto';
     font-size: 22px;
     color: #20455f;
