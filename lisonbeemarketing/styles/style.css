@@ -46,6 +46,15 @@ p, li {
     text-shadow: 2px 2px 1px lightgray;
 }
 
+a {
+    color: #20455f;
+    text-shadow: none;
+}
+
+a:hover {
+    color: #cfc31e;
+}
+
 .emphasis {
     text-shadow: 2px 2px 1px #cfc31e;
 }
@@ -135,7 +144,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     width: 100%;
 }
 
-#market-msg {
+#market-msg, .testing-msg h1, .optimize-msg {
     text-align: center;
     margin-right: 50px;
     margin-left: 50px;
@@ -204,6 +213,141 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 #testing-img:hover, #optimize-img:hover {
     border: 8px solid #20455f
+}
+
+.testing-msg, .optimize-msg {
+    margin-top: 70px;
+}
+
+.testing-grid1 {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    gap: 70px;
+    margin-top: 100px;
+    padding: 0px 50px 0px 50px;
+    max-width: 100%;
+}
+
+.laptopanalytics2 {
+    grid-column: 1/2;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#laptopanalytics2-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border: 8px solid #cfc31e;
+    border-radius: 20px;
+}
+
+#testingimplementation h3 {
+    font-size: 150%;
+}
+
+#testingimplementation p, #testingimplementation li {
+    font-size: 110%;
+}
+
+.testing-grid2 {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows: 1fr;
+    gap: 70px;
+    margin-top: 100px;
+    padding: 0px 50px 0px 50px;
+    max-width: 100%;
+}
+
+#test-it {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 23px;
+}
+
+#test-it h3 {
+    font-size: 150%;
+    margin-top: 50px;
+}
+
+#test-it p {
+    font-size: 110%;
+}
+
+.stickynote {
+    grid-column: 2/3;
+    margin: 0 auto;
+    margin-top: 25px;
+    grid-row: 1/2;
+}
+
+#stickynote-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border: 8px solid #cfc31e;
+    border-radius: 20px;
+}
+
+#testingnotes {
+    margin: 0 auto;
+    text-align: left;
+    padding: 50px 100px;
+}
+
+#testingnotes h3 {
+    font-size: 150%;
+}
+
+#testingnotes p {
+    font-size: 120%;
+}
+
+.optimize-grid1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+    margin-top: 100px;
+    padding: 0px 50px;
+    max-width: 100%;
+}
+
+.analytics-grid {
+    display: grid;
+    grid-template-rows: repeat(6,110px);
+}
+
+#googleanalytics-img {
+    grid-row: 1/6;
+    max-width: 100%;
+    border: 8px solid #cfc31e;
+    border-radius: 20px;
+}
+
+#optimizeimplementation h3 {
+    font-size: 170%;
+}
+
+#optimize-box {
+    grid-row: 4/7;
+    padding: 20px 20px;
+    margin: 0px 20px 0px 30px;
+    background-color: #cfc31e;
+    border-radius: 20px;
+}
+
+#optimize-box p, #optimize-box li {
+    font-size: 125%;
+}
+
+#optimize-notes {
+    margin: 50px 50px 100px;
+}
+
+#optimize-notes h3 {
+    font-size: 170%;
 }
 
 #calendly {
