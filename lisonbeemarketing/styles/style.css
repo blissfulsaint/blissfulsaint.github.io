@@ -415,3 +415,68 @@ footer .social img {
     padding: 15px 0px 0px 15px;
     max-width: 40px;
 }
+
+@media screen and (max-width: 900px) {
+    #market, .home-grid, .river-grid, .home-grid2, .testing-grid1, .testing-grid2, .optimize-grid1, .analytics-grid {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+    body {
+        max-width: 100%;
+    }
+    #about {
+        text-align: center;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    header {
+        background-color: #cfc31e;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    .dropbtn {
+        display: none;
+    }
+    nav a, .dropdown-content, .dropdown-content a {
+        display: block;
+        padding: 15px;
+        position: relative;
+        background-color: #cfc31e;
+        color: #20455f;
+        text-align: center;
+    }
+    .dropdown-content a:hover {
+        color: #cfc31e;
+        background-color: #20455f;
+    }
+    .dropdown-content {
+        padding: 0px;
+    }
+    #market {
+        margin-top: 0;
+    }
+    #market-msg {
+        margin-top: 0;
+    }
+    .profile {
+        margin: 0 auto;
+        padding: 0px;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .desolation-msg {
+        padding-left: 45px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
