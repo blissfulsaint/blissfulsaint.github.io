@@ -468,14 +468,6 @@ footer .social img {
     #background {
         display: none;
     }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    .desolation-msg {
-        padding-left: 45px;
-    }
     footer {
         margin-top: 25px;
     }
