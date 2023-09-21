@@ -154,5 +154,12 @@ footer p {
 #aboutme ~ .button {
   margin: 3em auto;
 }
+#aboutme ~ img {
+  margin: 5em auto 3em;
+  display: block;
+  box-shadow: 0 0 0.5em gray;
+  max-width: 100%;
+  border-radius: 1em;
+}
 
 /*# sourceMappingURL=style.css.map */
