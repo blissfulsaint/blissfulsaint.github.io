@@ -78,6 +78,8 @@ nav {
     top: 0;
     z-index: 1;
 
+    box-shadow: .2em .2em .5em rgba(0, 0, 0, 0.464);
+
     ul {
         height: fit-content;
         display: flex;
