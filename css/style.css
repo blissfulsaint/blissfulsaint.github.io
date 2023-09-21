@@ -14,7 +14,10 @@ body {
 
 main {
   flex: 1;
-  margin: 0 1em;
+  padding: 0 1em;
+  background-image: url("/images/circles.png");
+  background-size: cover;
+  background-position: center;
 }
 
 a {
@@ -105,6 +108,7 @@ footer p {
 }
 
 .card {
+  background-color: white;
   box-shadow: 0 0 0.5em gray;
   padding: 1em;
   box-sizing: border-box;

@@ -32,3 +32,12 @@ async function ConsoleLogPortfolio() {
     })
 }
 ConsoleLogPortfolio();
+
+
+
+const parallax = document.querySelector('main');
+
+window.addEventListener("scroll", function () {
+    let offset = window.scrollY;
+    parallax.style.backgroundPositionY = offset * .8 + "px";
+});
