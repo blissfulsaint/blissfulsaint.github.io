@@ -1,0 +1,34 @@
+{
+    "portfolio": [
+        {
+            "name": "Lyft Frontend",
+            "link": null,
+            "github": "https://github.com/blissfulsaint/lyft",
+            "thumbnail": "../images/lyft1.png"
+        },
+        {
+            "name": "Style Stage",
+            "link": "https://blissfulsaint.github.io/stylestage-sass/",
+            "github": "https://github.com/blissfulsaint/stylestage-sass",
+            "thumbnail": "../images/stylestage.png"
+        },
+        {
+            "name": "Temples Frontend",
+            "link": "https://blissfulsaint.github.io/wdd230/temple/",
+            "github": "https://github.com/blissfulsaint/wdd230/tree/master/temple",
+            "thumbnail": "../images/temples.png"
+        },
+        {
+            "name": "Valley Music Club",
+            "link": "https://eastvalleymusicclub.com/valleymusicclub/",
+            "github": null,
+            "thumbnail": "../images/vmc.png"
+        },
+        {
+            "name": "Valley Music Club API",
+            "link": "https://valleymusicclub.onrender.com/api-docs",
+            "github": "https://github.com/blissfulsaint/valleymusicclub",
+            "thumbnail": "../images/vmcapi.png"
+        }
+    ]
+}
