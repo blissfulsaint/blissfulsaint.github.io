@@ -5,6 +5,7 @@ $accent-color: #c248c0;
 
 h1, h2, h3, h4, p, li, span, a {
     font-family: 'Poppins', sans-serif;
+    transition: .5s;
 }
 
 html, body {
@@ -20,9 +21,11 @@ body {
 main {
     flex: 1;
     padding: 0 1em;
-    background-image: url('/images/circles.png');
+    background: url('/images/circles.png');
     background-size: cover;
     background-position: center;
+
+    transition: .5s;
 }
 
 a {
@@ -79,6 +82,26 @@ nav {
     z-index: 1;
 
     box-shadow: .2em .2em .5em rgba(0, 0, 0, 0.464);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    i.material-icons {
+        font-size: 2.5em;
+        transition: .2s;
+        display: block;
+        margin: auto .5em;
+
+        width: fit-content;
+        height: fit-content;
+
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            color: $accent-color;
+        }
+    }
 
     ul {
         height: fit-content;
@@ -193,5 +216,25 @@ footer {
         box-shadow: 0 0 .5em gray;
         max-width: 100%;
         border-radius: 1em;
+    }
+}
+
+body {
+    &.dark {
+        background-color: black;
+
+        p, span, h1, h2, h3, h4 {
+            color: white;
+        }
+
+        main {
+            background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)0), url('/images/circles.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card {
+            background-color: rgb(43, 43, 43);
+        }
     }
 }
