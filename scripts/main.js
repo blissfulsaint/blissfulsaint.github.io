@@ -16,12 +16,8 @@ window.addEventListener("scroll", function () {
 
 async function fetchData() {
     let response = await fetch('../json/portfolio.json');
-    console.log(response);
     let data = await response.json();
     let portfolio = data.portfolio;
-
-    console.log("portfolio var: " + portfolio);
-    console.log(data.portfolio);
 
     let portfolioCards = new Array();
     let i = 0;
@@ -73,7 +69,6 @@ if (window.localStorage.getItem('darkmode') == 'TRUE') {
     element.classList.remove('light');
     element.classList.remove('dark');
     element.classList.add('dark');
-    document.getElementById('theme-btn').innerHTML = 'dark_mode';
 }
 
 async function darkMode() {

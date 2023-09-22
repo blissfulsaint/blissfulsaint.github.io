@@ -1,4 +1,4 @@
-export default class Workout {
+export default class Portfolio {
     constructor (name, link, github, image) {
         this.name = name;
         this.link = link;
