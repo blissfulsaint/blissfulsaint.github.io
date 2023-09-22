@@ -5,6 +5,15 @@ loadHeaderFooter();
 
 
 
+const parallax = document.querySelector('main');
+
+window.addEventListener("scroll", function () {
+    let offset = window.scrollY;
+    parallax.style.backgroundPositionY = offset * .8 + "px";
+});
+
+
+
 async function fetchData() {
     let response = await fetch('../json/portfolio.json');
     console.log(response);
@@ -90,12 +99,3 @@ async function darkMode() {
         }
     }
 }
-
-
-
-const parallax = document.querySelector('main');
-
-window.addEventListener("scroll", function () {
-    let offset = window.scrollY;
-    parallax.style.backgroundPositionY = offset * .8 + "px";
-});
