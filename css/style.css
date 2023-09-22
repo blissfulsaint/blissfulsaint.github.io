@@ -19,7 +19,6 @@ main {
   background: url("/images/circles.png");
   background-size: cover;
   background-position: center;
-  transition: 0.5s;
 }
 
 a {
