@@ -21,9 +21,11 @@ body {
 main {
     flex: 1;
     padding: 0 1em;
-    background: url('/images/circles.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)0), url('/images/circles.png');
     background-size: cover;
     background-position: center;
+
+    transition: background .5s ease;
 
     // transition: .5s;
 }
@@ -220,6 +222,8 @@ footer {
 }
 
 body {
+    background-color: white;
+    transition: .5s;
     &.dark {
         background-color: black;
 
