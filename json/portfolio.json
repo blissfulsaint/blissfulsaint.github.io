@@ -14,7 +14,7 @@
         },
         {
             "name": "Lyft Frontend",
-            "link": null,
+            "link": "https://lyftworkouts.netlify.app/",
             "github": "https://github.com/blissfulsaint/lyft",
             "thumbnail": "../images/lyft1thumb.jpg"
         },
