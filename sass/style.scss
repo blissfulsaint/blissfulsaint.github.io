@@ -104,7 +104,6 @@ nav {
     }
 
     ul {
-        height: fit-content;
         display: flex;
         flex-wrap: wrap;
         justify-content: right;
@@ -113,11 +112,13 @@ nav {
 
         li {
             list-style-type: none;
-            padding: 1em 0;
 
             a {
                 color: white;
                 padding: 1em;
+
+                box-sizing: border-box;
+                display: block;
 
                 &:hover {
                     text-decoration: none;

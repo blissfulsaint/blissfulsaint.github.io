@@ -83,7 +83,6 @@ nav i.material-icons:hover {
   color: #c248c0;
 }
 nav ul {
-  height: fit-content;
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
@@ -92,11 +91,12 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-  padding: 1em 0;
 }
 nav ul li a {
   color: white;
   padding: 1em;
+  box-sizing: border-box;
+  display: block;
 }
 nav ul li a:hover {
   text-decoration: none;

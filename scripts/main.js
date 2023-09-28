@@ -49,6 +49,7 @@ const callback = (mutationList, observer) => {
   for (const mutation of mutationList) {
     if (mutation.type === "childList") {
       console.log("A child node has been added or removed.");
+      parallax.style.backgroundPositionY = 0;
       darkMode();
       observer.disconnect();
     } else if (mutation.type === "attributes") {
