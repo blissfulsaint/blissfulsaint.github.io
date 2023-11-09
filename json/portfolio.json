@@ -29,6 +29,18 @@
             "link": "https://blissfulsaint.github.io/wdd230/temple/",
             "github": "https://github.com/blissfulsaint/wdd230/tree/master/temple",
             "thumbnail": "../images/templesthumb.jpg"
+        },
+        {
+            "name": "I-Carpool (Frontend)",
+            "link": "https://icarpool.netlify.app/",
+            "github": "https://github.com/blissfulsaint/icarpool",
+            "thumbnail": "../images/icarpool.png"
+        },
+        {
+            "name": "I-Carpool (Backend)",
+            "link": null,
+            "github": "https://github.com/AniSolacion/icarpool-Backend",
+            "thumbnail": "../images/icarpool-backend.png"
         }
     ]
 }

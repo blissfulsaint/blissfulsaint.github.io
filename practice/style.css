@@ -1,0 +1,8 @@
+input {
+  background-color: red;
+}
+input .valid {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

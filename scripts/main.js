@@ -39,7 +39,7 @@ async function ConsoleLogPortfolio() {
 ConsoleLogPortfolio();
 
 // Select the node that will be observed for mutations
-const targetNode = document.querySelector("nav");
+const targetNode = document.querySelector("header");
 
 // Options for the observer (which mutations to observe)
 const config = { attributes: true, childList: true, subtree: true };
@@ -48,7 +48,6 @@ const config = { attributes: true, childList: true, subtree: true };
 const callback = (mutationList, observer) => {
   for (const mutation of mutationList) {
     if (mutation.type === "childList") {
-      console.log("A child node has been added or removed.");
       parallax.style.backgroundPositionY = 0;
       darkMode();
       observer.disconnect();
