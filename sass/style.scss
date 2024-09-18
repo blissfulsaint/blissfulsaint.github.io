@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
 $primary-color: #5c609e;
 $secondary-color: #7272da;
 $tertiary-color: #d3d3ff;
 $accent-color: #c248c0;
 
 h1, h2, h3, h4, p, li, span, a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
     transition: .5s;
 }
 
@@ -201,6 +204,7 @@ footer {
         max-width: 18em;
         height: 100%;
         border-radius: 1em;
+        margin: auto;
     }
 
     div {

@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
 h1, h2, h3, h4, p, li, span, a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
   transition: 0.5s;
 }
 
@@ -168,6 +170,7 @@ footer p {
   max-width: 18em;
   height: 100%;
   border-radius: 1em;
+  margin: auto;
 }
 #aboutme div {
   max-width: 28em;
